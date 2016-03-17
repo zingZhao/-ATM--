@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		721B2B941C9A49400019953A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 721B2B931C9A49400019953A /* main.m */; };
+		721B2B971C9A49400019953A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 721B2B961C9A49400019953A /* AppDelegate.m */; };
+		721B2B9A1C9A49400019953A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721B2B991C9A49400019953A /* ViewController.m */; };
+		721B2B9D1C9A49400019953A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721B2B9B1C9A49400019953A /* Main.storyboard */; };
+		721B2B9F1C9A49400019953A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721B2B9E1C9A49400019953A /* Assets.xcassets */; };
+		721B2BA21C9A49400019953A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721B2BA01C9A49400019953A /* LaunchScreen.storyboard */; };
+		721B2BAD1C9A49400019953A /* __ATMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 721B2BAC1C9A49400019953A /* __ATMTests.m */; };
+		721B2BB81C9A49400019953A /* __ATMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 721B2BB71C9A49400019953A /* __ATMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		721B2BA91C9A49400019953A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 721B2B871C9A49400019953A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 721B2B8E1C9A49400019953A;
+			remoteInfo = "口袋ATM";
+		};
+		721B2BB41C9A49400019953A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 721B2B871C9A49400019953A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 721B2B8E1C9A49400019953A;
+			remoteInfo = "口袋ATM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		721B2B8F1C9A49400019953A /* 口袋ATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "口袋ATM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721B2B931C9A49400019953A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		721B2B951C9A49400019953A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		721B2B961C9A49400019953A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		721B2B981C9A49400019953A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		721B2B991C9A49400019953A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		721B2B9C1C9A49400019953A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		721B2B9E1C9A49400019953A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721B2BA11C9A49400019953A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		721B2BA31C9A49400019953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721B2BA81C9A49400019953A /* 口袋ATMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "口袋ATMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721B2BAC1C9A49400019953A /* __ATMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ATMTests.m; sourceTree = "<group>"; };
+		721B2BAE1C9A49400019953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721B2BB31C9A49400019953A /* 口袋ATMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "口袋ATMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721B2BB71C9A49400019953A /* __ATMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ATMUITests.m; sourceTree = "<group>"; };
+		721B2BB91C9A49400019953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		721B2B8C1C9A49400019953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BA51C9A49400019953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BB01C9A49400019953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721B2B861C9A49400019953A = {
+			isa = PBXGroup;
+			children = (
+				721B2B911C9A49400019953A /* 口袋ATM */,
+				721B2BAB1C9A49400019953A /* 口袋ATMTests */,
+				721B2BB61C9A49400019953A /* 口袋ATMUITests */,
+				721B2B901C9A49400019953A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		721B2B901C9A49400019953A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				721B2B8F1C9A49400019953A /* 口袋ATM.app */,
+				721B2BA81C9A49400019953A /* 口袋ATMTests.xctest */,
+				721B2BB31C9A49400019953A /* 口袋ATMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721B2B911C9A49400019953A /* 口袋ATM */ = {
+			isa = PBXGroup;
+			children = (
+				721B2B951C9A49400019953A /* AppDelegate.h */,
+				721B2B961C9A49400019953A /* AppDelegate.m */,
+				721B2B981C9A49400019953A /* ViewController.h */,
+				721B2B991C9A49400019953A /* ViewController.m */,
+				721B2B9B1C9A49400019953A /* Main.storyboard */,
+				721B2B9E1C9A49400019953A /* Assets.xcassets */,
+				721B2BA01C9A49400019953A /* LaunchScreen.storyboard */,
+				721B2BA31C9A49400019953A /* Info.plist */,
+				721B2B921C9A49400019953A /* Supporting Files */,
+			);
+			path = "口袋ATM";
+			sourceTree = "<group>";
+		};
+		721B2B921C9A49400019953A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				721B2B931C9A49400019953A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		721B2BAB1C9A49400019953A /* 口袋ATMTests */ = {
+			isa = PBXGroup;
+			children = (
+				721B2BAC1C9A49400019953A /* __ATMTests.m */,
+				721B2BAE1C9A49400019953A /* Info.plist */,
+			);
+			path = "口袋ATMTests";
+			sourceTree = "<group>";
+		};
+		721B2BB61C9A49400019953A /* 口袋ATMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				721B2BB71C9A49400019953A /* __ATMUITests.m */,
+				721B2BB91C9A49400019953A /* Info.plist */,
+			);
+			path = "口袋ATMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		721B2B8E1C9A49400019953A /* 口袋ATM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721B2BBC1C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATM" */;
+			buildPhases = (
+				721B2B8B1C9A49400019953A /* Sources */,
+				721B2B8C1C9A49400019953A /* Frameworks */,
+				721B2B8D1C9A49400019953A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "口袋ATM";
+			productName = "口袋ATM";
+			productReference = 721B2B8F1C9A49400019953A /* 口袋ATM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		721B2BA71C9A49400019953A /* 口袋ATMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721B2BBF1C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATMTests" */;
+			buildPhases = (
+				721B2BA41C9A49400019953A /* Sources */,
+				721B2BA51C9A49400019953A /* Frameworks */,
+				721B2BA61C9A49400019953A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				721B2BAA1C9A49400019953A /* PBXTargetDependency */,
+			);
+			name = "口袋ATMTests";
+			productName = "口袋ATMTests";
+			productReference = 721B2BA81C9A49400019953A /* 口袋ATMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		721B2BB21C9A49400019953A /* 口袋ATMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721B2BC21C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATMUITests" */;
+			buildPhases = (
+				721B2BAF1C9A49400019953A /* Sources */,
+				721B2BB01C9A49400019953A /* Frameworks */,
+				721B2BB11C9A49400019953A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				721B2BB51C9A49400019953A /* PBXTargetDependency */,
+			);
+			name = "口袋ATMUITests";
+			productName = "口袋ATMUITests";
+			productReference = 721B2BB31C9A49400019953A /* 口袋ATMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		721B2B871C9A49400019953A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "赵奎博";
+				TargetAttributes = {
+					721B2B8E1C9A49400019953A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					721B2BA71C9A49400019953A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 721B2B8E1C9A49400019953A;
+					};
+					721B2BB21C9A49400019953A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 721B2B8E1C9A49400019953A;
+					};
+				};
+			};
+			buildConfigurationList = 721B2B8A1C9A49400019953A /* Build configuration list for PBXProject "口袋ATM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 721B2B861C9A49400019953A;
+			productRefGroup = 721B2B901C9A49400019953A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721B2B8E1C9A49400019953A /* 口袋ATM */,
+				721B2BA71C9A49400019953A /* 口袋ATMTests */,
+				721B2BB21C9A49400019953A /* 口袋ATMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721B2B8D1C9A49400019953A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721B2BA21C9A49400019953A /* LaunchScreen.storyboard in Resources */,
+				721B2B9F1C9A49400019953A /* Assets.xcassets in Resources */,
+				721B2B9D1C9A49400019953A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BA61C9A49400019953A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BB11C9A49400019953A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721B2B8B1C9A49400019953A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721B2B9A1C9A49400019953A /* ViewController.m in Sources */,
+				721B2B971C9A49400019953A /* AppDelegate.m in Sources */,
+				721B2B941C9A49400019953A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BA41C9A49400019953A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721B2BAD1C9A49400019953A /* __ATMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721B2BAF1C9A49400019953A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721B2BB81C9A49400019953A /* __ATMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		721B2BAA1C9A49400019953A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 721B2B8E1C9A49400019953A /* 口袋ATM */;
+			targetProxy = 721B2BA91C9A49400019953A /* PBXContainerItemProxy */;
+		};
+		721B2BB51C9A49400019953A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 721B2B8E1C9A49400019953A /* 口袋ATM */;
+			targetProxy = 721B2BB41C9A49400019953A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		721B2B9B1C9A49400019953A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721B2B9C1C9A49400019953A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		721B2BA01C9A49400019953A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721B2BA11C9A49400019953A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		721B2BBA1C9A49400019953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		721B2BBB1C9A49400019953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721B2BBD1C9A49400019953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "口袋ATM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		721B2BBE1C9A49400019953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "口袋ATM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		721B2BC01C9A49400019953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "口袋ATMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/口袋ATM.app/口袋ATM";
+			};
+			name = Debug;
+		};
+		721B2BC11C9A49400019953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "口袋ATMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/口袋ATM.app/口袋ATM";
+			};
+			name = Release;
+		};
+		721B2BC31C9A49400019953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "口袋ATMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "口袋ATM";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		721B2BC41C9A49400019953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "口袋ATMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zing.--ATMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "口袋ATM";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		721B2B8A1C9A49400019953A /* Build configuration list for PBXProject "口袋ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721B2BBA1C9A49400019953A /* Debug */,
+				721B2BBB1C9A49400019953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721B2BBC1C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721B2BBD1C9A49400019953A /* Debug */,
+				721B2BBE1C9A49400019953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		721B2BBF1C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721B2BC01C9A49400019953A /* Debug */,
+				721B2BC11C9A49400019953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		721B2BC21C9A49400019953A /* Build configuration list for PBXNativeTarget "口袋ATMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721B2BC31C9A49400019953A /* Debug */,
+				721B2BC41C9A49400019953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 721B2B871C9A49400019953A /* Project object */;
+}
