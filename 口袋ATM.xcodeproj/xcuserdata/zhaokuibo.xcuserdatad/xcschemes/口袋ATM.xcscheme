@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "721B2B8E1C9A49400019953A"
+               BuildableName = "&#x53e3;&#x888b;ATM.app"
+               BlueprintName = "&#x53e3;&#x888b;ATM"
+               ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "721B2BA71C9A49400019953A"
+               BuildableName = "&#x53e3;&#x888b;ATMTests.xctest"
+               BlueprintName = "&#x53e3;&#x888b;ATMTests"
+               ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "721B2BB21C9A49400019953A"
+               BuildableName = "&#x53e3;&#x888b;ATMUITests.xctest"
+               BlueprintName = "&#x53e3;&#x888b;ATMUITests"
+               ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "721B2B8E1C9A49400019953A"
+            BuildableName = "&#x53e3;&#x888b;ATM.app"
+            BlueprintName = "&#x53e3;&#x888b;ATM"
+            ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,21 +71,41 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "721B2B8E1C9A49400019953A"
+            BuildableName = "&#x53e3;&#x888b;ATM.app"
+            BlueprintName = "&#x53e3;&#x888b;ATM"
+            ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "721B2B8E1C9A49400019953A"
+            BuildableName = "&#x53e3;&#x888b;ATM.app"
+            BlueprintName = "&#x53e3;&#x888b;ATM"
+            ReferencedContainer = "container:&#x53e3;&#x888b;ATM.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
